@@ -1,0 +1,16 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Product";
+}
+
+<h3>Your selected product details:</h3>
+
+@Model.productNAME
+<br />
+@Model.productDESCRIPTION
+<br />
+$@Model.productPRICE per drink
+<br />
+Category: @Model.productCATEGORY
+<br />
+
